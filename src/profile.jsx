@@ -281,8 +281,8 @@ export default function Profile() {
             ),
         },
         {
-            name: 'Email',
-            href: 'mailto:sarangp.dev@gmail.com',
+            name: 'sarangp.dev@gmail.com',
+            href: "https://mail.google.com/mail/?view=cm&fs=1&to=sarangp.dev@gmail.com",
             icon: (
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -307,7 +307,7 @@ export default function Profile() {
                     className="text-lg sm:text-xl font-bold tracking-tight text-white flex items-center gap-2 group cursor-pointer focus:outline-none"
                 >
                     <span className="w-2.5 h-2.5 rounded-full bg-amber-500 group-hover:scale-125 transition-transform" />
-                    <span>sarang<span className="text-amber-500">.dev</span></span>
+                    <span>sarang<span className="text-amber-500"> p</span></span>
                 </button>
 
                 {/* Desktop Navigation Links */}
@@ -317,8 +317,8 @@ export default function Profile() {
                             key={item.label}
                             onClick={() => handleScrollTo(item.targetId, item.label)}
                             className={`text-xs uppercase tracking-widest transition-colors duration-200 cursor-pointer ${activeTab === item.label
-                                    ? 'text-amber-400 font-semibold'
-                                    : 'text-neutral-400 hover:text-white'
+                                ? 'text-amber-400 font-semibold'
+                                : 'text-neutral-400 hover:text-white'
                                 }`}
                         >
                             {item.label}
@@ -329,7 +329,7 @@ export default function Profile() {
                 {/* Action Button on Navbar (Desktop) */}
                 <div className="hidden md:flex items-center">
                     <a
-                        href="mailto:sarangp.dev@gmail.com"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=sarangp.dev@gmail.com"
                         className="px-4 py-2 rounded-full border border-neutral-700 bg-neutral-900/60 text-neutral-300 hover:text-white hover:border-amber-500/50 hover:bg-neutral-800 transition-all text-xs font-mono"
                     >
                         Get in touch
@@ -363,7 +363,7 @@ export default function Profile() {
                         </button>
                     ))}
                     <a
-                        href="mailto:sarangp.dev@gmail.com"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=sarangp.dev@gmail.com"
                         className="mt-4 px-6 py-2.5 rounded-full bg-amber-500 text-black font-semibold text-xs tracking-wider"
                     >
                         sarangp.dev@gmail.com
@@ -387,8 +387,7 @@ export default function Profile() {
                     <h1 className="text-3xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-white tracking-tight leading-[1.1]">
                         Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200">Sarang P</span>
                     </h1>
-                    <h2 className="mt-2 sm:mt-3 text-lg sm:text-2xl font-semibold text-neutral-300 tracking-tight">
-                        Full-Stack MERN Developer
+                    <h2 className="mt-2 sm:mt-3 text-lg sm:text-2xl font-semibold text-neutral-300 tracking-tight">Full-Stack MERN Developer
                     </h2>
 
                     {/* Short, Scannable Impact Pitch */}
@@ -414,7 +413,7 @@ export default function Profile() {
 
                         {/* Secondary Action */}
                         <a
-                            href="/resume.pdf"
+                            href="https://drive.google.com/file/d/1Zw5RqVWEkPXXV83hsU4VtspgHDcU9Bur/view"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full sm:w-auto min-h-[44px] px-6 py-3 rounded-xl border border-neutral-700 bg-neutral-900/60 hover:bg-neutral-800 hover:border-neutral-500 active:scale-[0.98] text-neutral-200 font-medium text-xs sm:text-sm tracking-wide transition-all flex items-center justify-center gap-2"

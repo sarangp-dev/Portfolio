@@ -188,7 +188,7 @@ export default function About() {
                             <p>
                                 My day-to-day stack centers around <strong className="text-neutral-200 font-semibold">React.js, Node.js, Express, and MongoDB</strong>.
                                 Through projects like <span className="text-amber-400 font-medium">TripNest</span> and <span className="text-amber-400 font-medium">Yuthi</span>,
-                                I've handled full project lifecycles — developing responsive frontends, designing structured REST APIs, implementing secure JWT authentication, and managing MongoDB schemas.
+                                I've handled full project lifecycles. developing responsive frontends, designing structured REST APIs, implementing secure JWT authentication, and managing MongoDB schemas.
                             </p>
 
                             <p>
